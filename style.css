@@ -1,0 +1,76 @@
+.input-select {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.shto-btn {
+    background: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+hr {
+    border-top: 1px solid;
+}
+
+#list-perdoruesit {
+    padding: 0;
+
+}
+
+.list-itm {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 0.9px solid transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px #0000003b;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid #00000026;
+    width: 25px;
+    height: 25px
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.person-name {
+    margin-left: 15px;
+}
+
+
+button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    color: white;
+    position: relative;
+    background: red;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #c73838;
+}
