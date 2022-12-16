@@ -44,7 +44,7 @@ function newElement() {
     localStorage.setItem('items', JSON.stringify(items));
 
     //get items 
-    const storeditems = JSON.parse(localStorage.getItem('items'));
+    const storeditems = JSON.parse(localStorage.getItem('items')) || [];
 
     var t = document.createTextNode(storeditems.name);
     var personSelect = document.createTextNode(storeditems.category);
@@ -78,10 +78,6 @@ function newElement() {
     }
 
 
-    // const items = { name: inputValue, category: perdoruesi };
-    // localStorage.setItem('items', JSON.stringify(items));
-
-    console.log(storeditems)
 }
 
 function search() {
